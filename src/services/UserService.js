@@ -25,7 +25,7 @@ export default function UserService() {
       const provider = new GoogleAuthProvider();
       signInWithPopup(auth, provider)
         .then((user) => {
-          console.log(user);
+          // console.log(user);
         })
         .catch((err) => {
           console.error(err);
