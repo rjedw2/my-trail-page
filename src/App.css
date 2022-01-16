@@ -13,11 +13,12 @@
 .AppHeader {
   border: 1px solid black;
   background-color: #282c34;
-  min-height: 5vh;
+  height: 10vh;
   display: flex;
   font-size: calc(10px + 2vmin);
   color: white;
   align-items: center;
+  justify-content: center;
 }
 .AppHeader * {
   flex: 1;
@@ -27,7 +28,7 @@
   max-width: 10vw;
 }
 .AppLogo img {
-  height: 10vh;
+  height: 7vh;
 }
 .HeaderUserSection {
   justify-content: flex-end;
@@ -35,4 +36,26 @@
 }
 .AppName {
   text-align: left;
+}
+.LoginButton {
+  text-align: end;
+  margin: 3vw;
+}
+.ProfileButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+  max-width: 15vw;
+  cursor: pointer;
+  height: 100%;
+  justify-content: center;
+}
+.ProfileButton:hover {
+  background-color: #050607;
+}
+.HeaderProfileImage {
+  border-radius: 50%;
+  max-height: 5vh;
+  max-width: 5vw;
 }
