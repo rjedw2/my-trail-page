@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.4ca3014c.css",
-    "main.js": "/static/js/main.824ab6db.js",
-    "static/media/owlLogo.png": "/static/media/owlLogo.dba98a3046abded60c04.png",
+    "main.css": "/static/css/main.b9c496f7.css",
+    "main.js": "/static/js/main.3ca0efd3.js",
+    "static/media/background-image.jpg": "/static/media/background-image.f3418acf7b55c4313f17.jpg",
     "index.html": "/index.html",
-    "main.4ca3014c.css.map": "/static/css/main.4ca3014c.css.map",
-    "main.824ab6db.js.map": "/static/js/main.824ab6db.js.map"
+    "main.b9c496f7.css.map": "/static/css/main.b9c496f7.css.map",
+    "main.3ca0efd3.js.map": "/static/js/main.3ca0efd3.js.map"
   },
   "entrypoints": [
-    "static/css/main.4ca3014c.css",
-    "static/js/main.824ab6db.js"
+    "static/css/main.b9c496f7.css",
+    "static/js/main.3ca0efd3.js"
   ]
 }
