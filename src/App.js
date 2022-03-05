@@ -1,15 +1,11 @@
-import Header from "./components/Header";
-import Body from "./components/MainBody";
-// import user from "./services/UserService";
 import "./App.css";
+import { Main } from "./Routes/_Routes";
+import { UserContextProvider } from "./Contexts/UserContext";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <Header />
-      <Body />
-    </div>
+    <UserContextProvider>
+      <Main />
+    </UserContextProvider>
   );
 }
-
-export default App;

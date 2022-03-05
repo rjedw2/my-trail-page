@@ -1,18 +1,17 @@
 import React from "react";
-import logo from "../assets/owlLogo.png";
-import UserSection from "./HeaderUserSection";
+import { Link } from "react-router-dom";
+import HeaderNav from "./HeaderNav";
 
-const appName = "Trail Page";
-
-export default function Header() {
+function Header() {
   return (
-    <div className="AppHeader">
-      <div className="AppLogo">
-        <img alt="Trail Page Logo" src={logo} />
-      </div>
-      <h3 className="AppName">{appName}</h3>
-      <div className="Spacer"></div>
-      <UserSection />
-    </div>
+    <nav className="navHeader">
+      <Link className="logoSection" to="/">
+        <i className="fas fa-person-hiking" />
+        <h4>Trail Page</h4>
+      </Link>
+      <HeaderNav />
+    </nav>
   );
 }
+
+export default Header;
